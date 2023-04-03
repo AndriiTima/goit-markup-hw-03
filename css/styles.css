@@ -90,7 +90,7 @@ p {
 /* Logo */
 
 .logo {
-  display: block;
+  display: inline-block;
   margin-right: 76px;
 
   color: var(--accent-color);
@@ -216,9 +216,6 @@ p {
 .section-approaches {
   padding-bottom: 0;
 }
-.section-approaches .title {
-  margin-top: 0;
-}
 
 .section-title {
   margin-bottom: var(--sections-title-margen);
@@ -256,14 +253,13 @@ p {
 }
 
 .title {
-  /* margin-top: var(--title-margen);
-  margin-bottom: var(--title-margen-bottom); */
+  /* margin-top: var(--title-margen);*/
+  margin-bottom: var(--title-margen-bottom);
 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  /* outline: 1px solid fuchsia; */
 }
 
 /* section our-team*/
@@ -282,17 +278,15 @@ p {
 
 .card-item {
   display: block;
-  border-radius: 0px 0px 4px 4px;
 
   background-color: var(--hero-text-color);
 }
 .card-box {
   padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 .text {
   color: var(--primari-text-color);
-
-  /* outline: 1px solid gold; */
 }
 .text-center {
   text-align: center;
@@ -310,9 +304,11 @@ p {
 .footer-logo .logo-studio {
   color: var(--section-our-team-color);
 }
+.footer-logo {
+  margin-top: 16px;
+}
 
 .content {
-  margin-top: 16px;
   max-width: 264px;
 }
 /**
