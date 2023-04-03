@@ -214,7 +214,7 @@ p {
 }
 
 .section-approaches {
-  padding-bottom: 0;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -305,7 +305,7 @@ p {
   color: var(--section-our-team-color);
 }
 .footer-logo {
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .content {
@@ -317,23 +317,20 @@ p {
   |============================
 */
 .work {
-  padding-bottom: var(--footer-padding-work);
-
-  /* outline: 2px solid indigo; */
+  /* padding-bottom: var(--footer-padding-work); */
+  padding: 96px 120px;
 }
 .work-btn {
   display: flex;
-  /* gap: 30px; */
+  margin-bottom: 72px;
+  gap: 30px;
   justify-content: center;
-  /* outline: 2px solid black; */
 }
-.btn-item:not(:last-child) {
+/* .btn-item:not(:last-child) {
   margin-right: 24px;
-
-  /* outline: 3px solid black; */
-}
+} */
 .btn-item {
-  padding-top: var(--btn-padding);
+  /* padding-top: var(--btn-padding); */
   padding-bottom: var(--btn-padding-botoom);
 }
 .btn {
@@ -360,23 +357,22 @@ p {
 .btn:focus {
   color: var(--hero-text-color);
   background-color: var(--hover-color);
-  border: transparent;
+  border: 1px solid transparent;
 }
 
 .work-list {
   display: block;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 
-  margin-left: calc(-1 * var(--card-set-gap));
+  /* margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
-  margin-bottom: calc(-1 * var(--card-set-gap));
-
-  /* outline: 8px solid green; */
+  margin-bottom: calc(-1 * var(--card-set-gap)); */
 }
 
 .project-card {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  flex-basis: calc(100% / 3);
   /* width: 360px; */
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
