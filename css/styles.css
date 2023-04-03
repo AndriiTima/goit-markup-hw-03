@@ -238,14 +238,16 @@ p {
   display: block;
   /* width: 264px; */
   width: calc((100% - 3 * 16px) / 3);
+  gap: 24px;
 }
-.feature-item + .feature-item {
+/* .feature-item + .feature-item {
   margin-left: 24px;
-}
+} */
+
 /* section What are we doing */
 .projects {
   display: flex;
-  /* outline: 2px solid blue; */
+  gap: 24px;
 }
 
 .section-title,
@@ -271,11 +273,12 @@ p {
 
 .card {
   display: flex;
+  gap: 24px;
 }
 
-.card-item:not(:last-child) {
+/* .card-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 .card-item {
   display: block;
@@ -304,7 +307,7 @@ p {
   color: var(--section-our-team-color);
 }
 .footer-content {
-  width: 264px;
+  max-width: 264px;
 }
 
 .content {
