@@ -236,7 +236,8 @@ p {
 }
 .feature-item {
   display: block;
-  width: 264px;
+  /* width: 264px; */
+  width: calc((100% - 3 * 16px) / 3);
 }
 .feature-item + .feature-item {
   margin-left: 24px;
@@ -246,9 +247,7 @@ p {
   display: flex;
   /* outline: 2px solid blue; */
 }
-.projects-item + .projects-item {
-  margin-left: 24px;
-}
+
 .section-title,
 .title {
   color: var(--title-text-color);
