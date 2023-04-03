@@ -19,50 +19,47 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="container">
+    
         <!-- header and navigation -->
-        <header class="page-header">
-          <div class="header-string">
-            <nav class="header-nav">
-              <a href="./index.html" class="logo link"
-                >Web<span class="logo-studio">Studio</span></a
+       <div class="container wrap">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+
+          <ul class="site-nav list">
+            <li class="address-item">
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li class="address-item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="address-item">
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="header-address">
+          <ul class="auth-nav list link">
+            <li class="address-item">
+              <a href="mailto:info@devstudio.com" class="contacts link"
+                >info@devstudio.com</a
               >
-
-              <ul class="site-nav list">
-                <li class="address-item">
-                  <a href="./index.html" class="link">Studio</a>
-                </li>
-                <li class="address-item">
-                  <a href="./portfolio.html" class="link">Portfolio</a>
-                </li>
-                <li class="address-item">
-                  <a href="" class="link">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-
-            <address class="header-address">
-              <ul class="auth-nav list link">
-                <li class="address-item">
-                  <a href="mailto:info@devstudio.com" class="contacts link"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="address-item">
-                  <a href="tel:+110001111111" class="contacts link"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-        </header>
+            </li>
+            <li class="address-item">
+              <a href="tel:+110001111111" class="contacts link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
+    </header>
       <!-- main content-->
       <main>
-        <div class="container">
-          <section class="work">
+                 <section class="work">
+             <div class="container">
             <h1 class="work-title" hidden>Our work</h1>
 
             <ul class="list work-btn">
@@ -196,8 +193,9 @@
                 >
               </li>
             </ul>
+            </div>
           </section>
-        </div>
+        
       </main>
       <!-- Footer -->
       <footer class="footer">
@@ -213,6 +211,5 @@
           </div>
         </div>
       </footer>
-    </div>
-  </body>
+     </body>
 </html>
