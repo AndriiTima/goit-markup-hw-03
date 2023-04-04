@@ -294,7 +294,7 @@ p {
 */
 .work {
   padding: 96px 120px;
-  padding: 96px 0 120px 0;
+  /* padding: 96px 0 120px 0; */
 }
 .work-btn {
   display: flex;
