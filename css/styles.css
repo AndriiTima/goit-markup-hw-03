@@ -40,7 +40,7 @@ body {
 }
 .wrap {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 h1,
@@ -293,6 +293,7 @@ p {
   |============================
 */
 .work {
+  padding: 96px 120px;
   padding: 96px 0 120px 0;
 }
 .work-btn {
@@ -300,6 +301,7 @@ p {
   margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .btn {
