@@ -285,7 +285,7 @@ p {
 }
 .footer-logo {
   margin-bottom: 16px;
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .content {
