@@ -281,7 +281,10 @@ p {
   color: var(--section-our-team-color);
 }
 .footer-logo {
+  display: block;
   margin-bottom: 16px;
+
+  margin-right: auto;
 }
 
 .content {
@@ -293,8 +296,8 @@ p {
   |============================
 */
 .work {
-  padding: 96px 120px;
-  /* padding: 96px 0 120px 0; */
+  /* padding: 96px 120px; */
+  padding: 96px 0 120px 0;
 }
 .work-btn {
   display: flex;
