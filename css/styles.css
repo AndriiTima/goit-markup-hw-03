@@ -137,8 +137,6 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--primari-text-color);
-
-  /* outline: 2px solid blue; */
 }
 
 /* hero setion */
@@ -148,8 +146,6 @@ p {
 
   background-color: var(--title-text-color);
   text-align: center;
-
-  /* outline: 4px solid lightblue; */
 }
 
 .hero-title {
@@ -197,6 +193,19 @@ p {
 .section-projects {
   padding-top: 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-title {
   margin-bottom: var(--sections-title-margen);
 
@@ -288,7 +297,7 @@ p {
   |============================
 */
 .work {
-  /* padding: 96px 120px; */
+  padding: 96px 120px;
   padding: 96px 0 120px 0;
 }
 .work-btn {
